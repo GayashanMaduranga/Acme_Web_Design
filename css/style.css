@@ -173,3 +173,55 @@ ul#services li{
 .quote label{
     display: block;
 }
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+@media(max-width:768px){
+    header #branding h1, header nav{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav ul{
+        width: 56%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    #newsletter h1, #newsletter form{
+        float: none;
+        text-align: center;
+    }
+    #newsletter form{
+        width: 70%;
+        margin: auto;
+    }
+
+    #boxes .box{
+        float: none;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    #boxes img{
+        width: 100px;
+    }
+
+    article#main-col{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+
+    aside#sidebar{
+        float: none;
+        width: 80%;
+        margin: auto;
+    }
+
+    
+}
